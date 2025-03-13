@@ -40,7 +40,7 @@ const data = {
   user: {
     name: "Доминик",
     email: "domiksfg@gmail.com",
-    avatar: "/user-pfp.jpg",
+    avatar: "./user-pfp.jpg",
   },
 }
 const items = [
@@ -147,14 +147,14 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarHeader className="w-32 h-20 group-data-[collapsible=icon]:w-10 m-auto flex justify-center items-center p-0">
         <Image
-          src="/logoDark.svg"
+          src="./logoDark.svg"
           className="hidden dark:block"
           width={218}
           height={100}
           alt="логотип IT-TOP"
         />
         <Image
-          src="/logoLight.svg"
+          src="./logoLight.svg"
           className="dark:hidden"
           width={218}
           height={100}
