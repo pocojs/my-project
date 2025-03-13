@@ -13,7 +13,7 @@ export default function DashboardLayout({ children }: Readonly<{ children: React
           {children}
         </main>
       </SidebarProvider>
-      <div className=" sp:w-[10%] mp:w-[90%] bp:w-[90%] sm:w-[70%] md:w-[70%] lg:w-[77%] xl:w-[84%] 2xl:w-[85%] 3xl:w-[88%] 4xl:w-[91%] p-2">
+      <div className=" sp:w-[90%] mp:w-[90%] bp:w-[90%] sm:w-[70%] md:w-[70%] lg:w-[77%] xl:w-[84%] 2xl:w-[85%] 3xl:w-[88%] 4xl:w-[91%] p-2">
         <InputSearch />
       </div>
     </div>
