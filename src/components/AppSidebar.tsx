@@ -144,7 +144,7 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar collapsible="icon">
+    <Sidebar className="bg-sidebar" collapsible="icon">
       <SidebarHeader className="w-32 h-20 group-data-[collapsible=icon]:w-10 m-auto flex justify-center items-center p-0">
         <Image
           src="./logoDark.svg"
